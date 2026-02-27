@@ -1,0 +1,35 @@
+{
+  "name": "webgl-glsl-typescript",
+  "version": "1.0.0",
+  "description": "WebGL + GLSL + TypeScript project",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "typescript",
+    "webgl",
+    "glsl",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/stats.js": "^0.17.0",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/three": "^0.182.0",
+    "lil-gui": "^0.21.0",
+    "stats.js": "^0.17.0",
+    "tailwindcss": "^4.1.18",
+    "three": "^0.182.0",
+    "vite-plugin-glsl": "^1.5.5"
+  }
+}
